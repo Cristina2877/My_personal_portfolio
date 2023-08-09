@@ -282,6 +282,7 @@ section {
 
 .home-imgHover {
     position: absolute;
+    align-items: center;
     top: 0;
     right: 0;
     width: 700px;
@@ -296,14 +297,8 @@ section {
 }
 
 .home-imgHover img {
-    max-width: 70%; 
-    height: auto; 
-}
-
-@media (max-width: 768px) {
-    .about-img img {
-        width: 100%; 
-    }
+    max-width: 79%; 
+    height: auto;
 }
 
 
@@ -864,6 +859,13 @@ section:nth-child(odd) .animate.scroll,
 
 
 /* BREAKPOINTS */
+
+@media (max-width: 767px) {
+    .home {
+        background-size: contain;
+    }
+}
+
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
@@ -1022,22 +1024,18 @@ section:nth-child(odd) .animate.scroll,
 
 /* Stili per dispositivi con larghezza fino a 575px (es. smartphone) */
 @media screen and (max-width: 575px) {
-    /* Inserisci qui gli stili per dispositivi mobili */
   }
   
   /* Stili per dispositivi con larghezza da 576px a 767px (es. smartphone in orizzontale o tablet) */
   @media screen and (min-width: 576px) and (max-width: 767px) {
-    /* Inserisci qui gli stili per dispositivi mobili con schermi più grandi */
   }
   
   /* Stili per dispositivi con larghezza da 768px a 1023px (es. tablet) */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    /* Inserisci qui gli stili per tablet e dispositivi con schermi di dimensioni simili */
   }
   
   /* Stili per dispositivi con larghezza da 1024px in su (es. schermi più grandi) */
   @media screen and (min-width: 1024px) {
-    /* Inserisci qui gli stili per schermi più grandi, inclusi il Samsung Galaxy S21 Ultra */
   }
   
 
