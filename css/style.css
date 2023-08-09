@@ -296,9 +296,16 @@ section {
 }
 
 .home-imgHover img {
-    max-width: 70%; /* Imposta la larghezza massima dell'immagine al 100% del contenitore */
-    height: auto; /* Mantieni l'altezza proporzionale */
+    max-width: 70%; 
+    height: auto; 
 }
+
+@media (max-width: 768px) {
+    .about-img img {
+        width: 100%; 
+    }
+}
+
 
 .about {
     display: flex;
