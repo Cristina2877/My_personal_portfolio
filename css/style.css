@@ -1040,6 +1040,15 @@ section:nth-child(odd) .animate.scroll,
   
 
   
+
+@media (max-width: 768px) {
+    .portfolio-item img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
 /* KEYFRAMES ANIMATION */
 @keyframes homeBgText {
 
