@@ -297,7 +297,7 @@ section {
 }
 
 .home-imgHover img {
-    max-width: 79%; 
+    max-width: 89%; 
     height: auto;
 }
 
@@ -502,6 +502,7 @@ span {
   
 .portfolio-box img {
     width: 100%;
+    height: auto;
     transition: .5s ease;
 }
 
