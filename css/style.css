@@ -79,7 +79,7 @@ body {
 }
 
 section {
-    min-height: 142vh;
+    min-height: 130vh;
     padding: 10rem 9% 2rem;
 }
 
@@ -1112,6 +1112,10 @@ section:nth-child(odd) .animate.scroll,
 
     .home img {
         margin-left: 10%; 
+    }
+
+    .home-content {
+        margin-top: 3rem; 
     }
 }
 
