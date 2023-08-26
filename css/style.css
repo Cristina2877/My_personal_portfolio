@@ -1104,7 +1104,7 @@ section:nth-child(odd) .animate.scroll,
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 60%; /* Aggiusta il padding se necessario */
+        padding: 0 20%; /* Aggiusta il padding se necessario */
         background: url('/images/f7.jpg') no-repeat;
         background-size: cover;
         background-position: center;
