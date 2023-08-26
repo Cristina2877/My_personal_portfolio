@@ -87,7 +87,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/images/f.jpg') no-repeat;
+    background: url('/images/f7.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -1095,5 +1095,18 @@ section:nth-child(odd) .animate.scroll,
 @keyframes showRight {
     100% {
         width: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 60%; /* Aggiusta il padding se necessario */
+        background: url('/images/f7.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
